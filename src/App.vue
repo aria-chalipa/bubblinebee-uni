@@ -1,14 +1,38 @@
 <template>
+  <HeaderCOP />
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/" class="inline">خانه</router-link> |
+    <router-link to="/menu" class="inline">منو</router-link>
   </nav>
   <router-view/>
+  <br>
+  <br>
+  <br>
+
+  <hr>
+
+  <div>
+    <FooterCOP />
+  </div>
 </template>
 
+
+<script>
+import HeaderCOP from './components/HeaderCop.vue'
+import FooterCOP from './components/FooterCOP.vue'
+
+export default{
+  components:{
+    HeaderCOP,
+    FooterCOP
+  }
+}
+</script>
+
 <style>
+@import "../public/style.css";
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: vazir;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -22,9 +46,13 @@ nav {
 nav a {
   font-weight: bold;
   color: #2c3e50;
+  display: inline;
+}
+.inline{
+  display: inline;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color:rgb(224, 129, 129);
 }
 </style>

@@ -1,5 +1,19 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import MenuView from '../views/MenuView'
+import Hot from '../views/views2/HotDreanks'
+import Cold from '../views/views2/ColdDreanks'
+import Notela from '../views/views2/NotelaBar'
+import Vafel from '../views/views2/VafelBar'
+import Cake from '../views/views2/CakeIcecaream'
+import Breakfast from '../views/views2/breakfast'
+import Shake from "../views/views2/Shakes"
+
+
+
+
+
+
 
 const routes = [
   {
@@ -8,13 +22,47 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  }
+    path: '/menu',
+    name: 'menu',
+    component: MenuView
+  },
+  {
+    path: '/hot',
+    name: 'hot',
+    component: Hot
+  },
+  {
+    path: '/cold',
+    name: 'cold',
+    component: Cold
+  },
+  {
+    path: '/notela',
+    name: 'notela',
+    component: Notela
+  },
+  {
+    path: '/vafel',
+    name: 'vafel',
+    component: Vafel
+  },
+  {
+    path: '/cake',
+    name: 'cake',
+    component: Cake
+  },
+  {
+    path: '/breakfast',
+    name: 'breakfast',
+    component: Breakfast
+  },
+  {
+    path: '/shake',
+    name: 'shake',
+    component: Shake
+  },
+
+  
 ]
 
 const router = createRouter({
