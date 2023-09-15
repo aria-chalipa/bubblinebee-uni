@@ -15,7 +15,7 @@
     </footer>
 </template>
 
-<style scoped>
+<style scoped>    
 footer{
     width: 100%;
 }
