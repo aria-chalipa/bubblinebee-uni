@@ -1,12 +1,17 @@
 <template>
   <div>
+    <router-link to="/coffe">قهوه</router-link>
+    <router-link to="/coldCoffe">قهوه‌ی سرد</router-link>
     <router-link to="/hot">نوشیدنی های گرم</router-link>
     <router-link to="/cold"> نوشیدنی های سرد</router-link>
-    <router-link to="/notela">نوتلا بار</router-link>
-    <router-link to="/vafel"> وافل</router-link>
+    <router-link to="/shake"> شیک</router-link>
     <router-link to="/cake"> کیک و بستنی</router-link>
     <router-link to="/breakfast"> صبحانه</router-link>
-    <router-link to="/shake"> شیک</router-link>
+    <router-link to="/food">وعده های غذایی</router-link>
+
+
+
+
   </div>
   <router-view/>
 </template>
@@ -37,7 +42,7 @@ div ul{
 ul div{
     display: block;
     margin: 15px 0;
-    border-bottom:solid 1px rgb(224, 129, 129) ;
+    
 }
 ul div li{
     display:flex;

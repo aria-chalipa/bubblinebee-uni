@@ -3,11 +3,12 @@
     
     <div>
         <ul>
-           <div><li>شیر خرما</li><p>70</p></div> 
-            <div><li>شیر خرما پسته</li><p>80</p></div>
-            <div><li>شیر خرما بادام</li><p>80</p></div>
-            <div><li>شیر خرما نارگیل</li><p>80</p></div>
-            <div><li>معجون بوبیلین‌بی</li><p>100</p></div>
+            <div><li>نیمرو</li><p>30</p></div>
+            <div><li>املت</li><p>50</p></div>
+            <div><li>املت پنیری</li><p>60</p></div>
+            <div><li>سوسیس تخم مرغ</li><p>70</p></div>
+            <div><li>سوجوک تخم مرغ</li><p>100</p></div>
+
         </ul>
     </div>
 </template>

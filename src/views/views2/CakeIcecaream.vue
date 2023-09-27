@@ -3,9 +3,11 @@
     
     <div>
         <ul> 
-            <div><li>کیک شکلاتی</li><p>70</p></div>
-            <div><li>کیک بستنی</li><p>80</p></div>
-            <div><li>کیک روز</li><p>60</p></div>
+            <div><li>کیک شکلاتی</li><p></p></div>
+            <div><li>کیک بستنی</li><p></p></div>
+            <div><li>بستنی اسکوپی</li><p>30</p></div>
+            <div><li>وافل نوتلا میوه</li><p>90</p></div>
+
         </ul>
     </div>
 </template>

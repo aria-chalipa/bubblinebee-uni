@@ -1,7 +1,7 @@
 <template>
  <header>
     <nav>
-        <h1>Bubblin<h1 style=" color:yellow;">bee</h1></h1>
+        <h1 style="color: snow;">Bubblin<h1 style=" color:rgb(255, 199, 160);">bee</h1></h1>
     </nav>
  </header>
 </template>

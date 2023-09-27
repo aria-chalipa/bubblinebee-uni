@@ -2,24 +2,12 @@
     <h3>نوشیدنی های گرم</h3>
     <div>
         <ul>
-           <div><li>اسپرسو</li><p>40</p></div> 
-            <div><li>آمریکانو(اسپرسو + اب جوش)</li><p>50</p></div>
-            <div><li>لته(اسپرسو + فوم شیر)</li><p>60</p></div>
-            <div><li>قهوه ترک</li><p>40</p></div>
-            <div><li>کاپوچینو(کف شیر + اسپرسو)</li><p>55</p></div>
-            <div><li>موکا(سس شکلات + کف شیر + اسپرسو)</li><p>60</p></div>
-            <div><li>کارامل ماکیاتو(کارامل + کف شیر + اسپرسو)</li><p>60</p></div>
-            <!-- <div><li>آفوگانو</li><p>45</p></div> -->
-            <div><li>هات چاکلت</li><p>50</p></div>
-            <div><li>وایت چاکلت</li><p>50</p></div>
-            <div><li>هات پینک(شیر + ثعلب + توت‌فرنگی)</li><p>55</p></div>
-            <div><li>هات چاکلت فندوق دارچین</li><p>55</p></div>
-            <div><li>ثعلب زعفران</li><p>65</p></div>
-            <div><li>ثعلب وانیلی</li><p>55</p></div>
-            <div><li>هات پسته ویژه</li><p>65</p></div>
-            <div><li>چای ماسالا</li><p>50</p></div>
-            <div><li>چای سیاه</li><p>30</p></div>
-
+            <div><li>چای ماسالا</li><p>40</p></div>
+            <div><li>هات چاکلت</li><p>40</p></div>
+            <div><li>وایت چاکلت</li><p>40</p></div>
+            <div><li>هات پسته</li><p>60</p></div>
+            <div><li>هات فندوق دارچین</li><p>50</p></div>
+            <div><li>شیر نوتلا</li><p>60</p></div>
 
         </ul>
     </div>
@@ -36,7 +24,6 @@ div ul{
 ul div{
     display: block;
     margin: 15px 0;
-    border-bottom:solid 1px rgb(224, 129, 129) ;
 }
 ul div li{
     display:flex;
